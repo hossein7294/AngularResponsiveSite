@@ -1,0 +1,24 @@
+.course {
+    background-color: #eff6ff;
+    padding: 50px 100px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.box > p {
+    font-size: 12px;
+}
+
+.box > h3 {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width : 600px) {
+    .course {
+        padding: 50px 10px;
+    }
+}
